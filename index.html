@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/calculator/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="display"></div>
+        <div class="buttons">
+            <button class="button" id="AC" onclick="AC()">C</button>
+            <button class="button" onclick="val('/')">/</button>
+            <button class="button" onclick="val('*')">*</button>
+            <button class="button" id="red" onclick="del()">&larr;</button>
+
+            <button class="button" onclick="val('7')">7</button>
+            <button class="button" onclick="val('8')">8</button>
+            <button class="button" onclick="val('9')">9</button>
+            <button class="button" onclick="val('-')">-</button>
+
+            <button class="button" onclick="val('4')">4</button>
+            <button class="button" onclick="val('5')">5</button>
+            <button class="button" onclick="val('6')">6</button>
+            <button class="button" onclick="val('+')">+</button>
+
+            <button class="button" onclick="val('1')">1</button>
+            <button class="button" onclick="val('2')">2</button>
+            <button class="button" onclick="val('3')">3</button>
+            <button class="button" id="fullstop" onclick="val('.')">.</button>
+
+            <button class="button">(</button>
+            <button class="button" onclick="val('0')">0</button>
+            <button class="button">)</button>
+            <button class="button" id="equalTo" onclick="equalsign()">=</button>
+        </div>
+        <script src="/calculator/script.js"></script>
+</body>
+
+</html>
